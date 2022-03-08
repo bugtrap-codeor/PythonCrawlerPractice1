@@ -1,0 +1,12 @@
+1.login.py
+2.login_crypto.py  使用PyCryptodome rsa库对密码加密
+3.python_js_encrypto.py  使用pyexecjs库 和 npm包-jsdom 借助 jsencrypt.min.js 对密码加密
+4.extract_cookie.py  提取cookies,返回码大于400 输出 error.html,获取正常会将结果写入cookies.txt
+5.extract_cookie_v2.py  改良版 request => session(Session会自动管理cookies和token);获取正常会将结果写入cookies_v2.txt
+6.load_cookie.py  读取本地的Cookie，将登录状态装载到请求中
+7.selenium_extract_cookie_auto.py
+    全自动登录获取cookies
+        cookies_auto_v1.txt  直接拿取未格式化处理
+        cookies_auto_v2.txt  格式化处理后的目标信息  load_cookie.py 可载入文件名验证
+8.selenium_extract_cookie_half_auto.py
+    半自动登录获取cookies  cookies_half_auto.txt  格式化处理后的目标信息  load_cookie.py 可载入文件名验证
